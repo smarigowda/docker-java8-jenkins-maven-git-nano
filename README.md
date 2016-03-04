@@ -9,7 +9,7 @@ Usage
 
 To run the container with the same time zone as the host, do the following:
 
-    sudo docker run -t -i -p 8080:8080 -v /etc/localtime:/etc/localtime:ro -P stephenreed/java8-jenkins-maven-git-nano
+    sudo docker run --name myjenkinsjava8 -t -i -p 8080:8080 -v /etc/localtime:/etc/localtime:ro -P santosharakere/java8-jenkins-maven-git-nano
 
 To start Jenkins from the container's command prompt . . .
 
